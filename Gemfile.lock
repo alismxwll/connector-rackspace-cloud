@@ -3,6 +3,8 @@ PATH
   specs:
     factor-connector-rackspacecloud (0.0.3)
       factor-connector-api (~> 0.0.13)
+      nokogiri (~> 1.6.3.1)
+      nori (~> 2.4.0)
       rest_client (~> 1.7.3)
 
 GEM
@@ -17,8 +19,12 @@ GEM
     factor-connector-api (0.0.13)
       celluloid (~> 0.16.0)
     hitimes (1.2.2)
+    mini_portile (0.6.0)
     multi_json (1.10.1)
     netrc (0.7.9)
+    nokogiri (1.6.3.1)
+      mini_portile (= 0.6.0)
+    nori (2.4.0)
     predicated (0.2.6)
     rake (10.3.2)
     rest_client (1.7.3)

@@ -15,6 +15,8 @@ Gem::Specification.new do |s|
 
   s.add_runtime_dependency 'factor-connector-api', '~> 0.0.13'
   s.add_runtime_dependency 'rest_client', '~> 1.7.3'
+  s.add_runtime_dependency 'nori', '~> 2.4.0'
+  s.add_runtime_dependency 'nokogiri', '~> 1.6.3.1'
 
   s.add_development_dependency 'codeclimate-test-reporter', '~> 0.4.1'
   s.add_development_dependency 'rspec', '~> 3.1.0'
